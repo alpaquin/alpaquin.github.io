@@ -18,6 +18,17 @@
 <img src="/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      registrations.forEach(registration => registration.unregister());
+    }).catch(function(error) {
+      console.log('Erro ao desregistrar service worker:', error);
+    });
+  }
+</script>
+
+
 </body>
 
 </html>
