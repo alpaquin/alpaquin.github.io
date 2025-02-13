@@ -1,11 +1,11 @@
 # Site settings
-title: Rango's Blog
-SEOTitle: Rango Blog
+title: Blog da Aline
+SEOTitle: Blog da Aline
 header-img: img/home-bg.jpg
-email: rangonomics@gmail.com
-description: "Rango's Blog Page | Learning, Lifestyle, Experiences"
-keyword: "Rango, Rango Blog, Github Pages, Web, JavaScript, React, React Native"
-url: "guilyx.github.com" # your host, for absolute URL
+email: alinepazquintiliano@gmail.com
+description: "Blog da Aline | Projetos Futuros"
+keyword: "Aline, Alpaquin, Aline Paz Quintiliano, Power BI"
+url: "https://alpaquin.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-github_username: guilyx
-twitter_username: rangonomics
-#facebook_username:  huxpro
-#linkedin_username:  huxpro
+github_username: alpaquin
+#linkedin_username:  alinepazquintiliano
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -55,24 +53,10 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# Disqus settings
-# disqus_username: hux
-
-# Netease settings
-netease_comment: false
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: "G-L60Z89VR35" # Format: UA-xxxxxx-xx
-ga_domain: guilyx.github.io
-
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Rango <br> Swarm Team @ ATRC"
-sidebar-avatar: https://github.com/guilyx.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Posto aqui meus projetos e falo um pouquinho sobre como foi a criação deles."
+sidebar-avatar: "/img/momos.png" # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -88,5 +72,5 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "Open PR to be featured!", href: "https://github.com/guilyx/guilyx.github.io/pulls" },
+    { title: "", href: "" },
   ]
